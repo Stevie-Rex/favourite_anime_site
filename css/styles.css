@@ -142,6 +142,39 @@ p{
     width: 40%;
     border: 4px solid #181717;
 }
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 p{
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+.color-one {
+    background-color: red;
+}
+
+.color-two {
+    background-color: blue;
+}
+
+.color-three {
+    background-color: green;
+}
+
+.color-four {
+    background-color: yellow;
+}
+
+.color-five {
+    background-color: purple;
+}
+.color-explain {
+    background-color: #72ecec;
+}
+
+
 
 @media (max-width: 768px) {
    
