@@ -46,9 +46,7 @@ p{
     float: left;
     margin-right: 20px;
 }
-.anime-description {
-    
-}
+
 .navigation {
     background-color: #013921;
     color: #fff;
@@ -126,4 +124,80 @@ p{
     padding: 1rem;
     margin-top: 50px;
     text-align: center;
+}
+.container {
+    display: flex;
+    gap: 10px;
+}
+.one {
+    width: 30%;
+    border: 4px solid #181717;
+}
+.two {
+    width: 30%;
+    border: 4px solid #181717;
+    padding: 15px;
+}
+.three {
+    width: 40%;
+    border: 4px solid #181717;
+}
+
+@media (max-width: 768px) {
+   
+    .single-anime {
+        width: 25%;
+        float: none;
+    }
+    .anime-images {
+        width: 20%;
+        height: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .anime-intros {
+        display: block;
+        margin-top: 0px;
+        text-align: center;
+
+    }
+    .animes {
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .anime-details {
+        display: block;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .container {
+        display: inline-block;
+        margin-top: 0px;
+        text-align: center;
+        gap: 0px;
+    }
+    .one {
+        width: 100%;
+        border: 4px solid #181717;
+        padding: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .two {
+        width: 100%;
+        border: 4px solid #181717;
+        padding: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .three {
+        width: 100%;
+        border: 4px solid #181717;
+        padding: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
